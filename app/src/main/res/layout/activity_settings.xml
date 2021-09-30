@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2BF80">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="Voice Planner"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="환경설정"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        tools:layout_editor_absoluteX="169dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:background="@drawable/round_button3"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="구성원 관리"
+        app:layout_constraintBottom_toTopOf="@+id/button35"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:background="@drawable/round_button3"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="캘린더 공유"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_button3"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="목소리"
+        app:layout_constraintTop_toBottomOf="@+id/button35"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_button3"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="계정삭제"
+        app:layout_constraintTop_toBottomOf="@+id/button36"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_button3"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="로그아웃"
+        app:layout_constraintTop_toBottomOf="@+id/button37"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>

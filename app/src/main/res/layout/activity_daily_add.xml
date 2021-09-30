@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2BF80"
+    android:backgroundTint="#F2BF80">
+
+
+    <TextView
+    android:id="@+id/textView20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="180dp"
+    android:font="@font/nanumbarungothic"
+    android:fontFamily="@font/nanumbarungothic"
+    android:text="9/1"
+    android:textColor="#2B3240"
+    android:textSize="28sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+    android:id="@+id/button9"
+    style="@android:style/Widget.Material.Light.Button"
+    android:layout_width="411dp"
+    android:layout_height="111dp"
+    android:layout_marginTop="48dp"
+    android:background="@drawable/round_button"
+    android:font="@font/nanumbarungothic"
+    android:fontFamily="@font/nanumbarungothic"
+    android:text="자녀 1"
+    android:textAlignment="center"
+    android:textColor="#2B3240"
+    android:textSize="28sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="398dp"
+        android:layout_marginTop="236dp"
+        android:background="#F2EDD0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="일정추가"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="159dp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="145dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="61dp"
+            android:background="@drawable/round_button6"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="오전 00:00"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="159dp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="78dp"
+            android:layout_height="28dp"
+            android:background="@drawable/round_button6"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="10분전"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.236"
+            app:layout_constraintStart_toEndOf="@+id/textView26"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteY="106dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="시간"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/button23"
+            app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="시간을 등록하지 않음"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.827"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="알림"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="일정내용"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="412dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_button5"
+            android:text="학원 가기"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="17dp"
+            android:text="목소리선택"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button33" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="36dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toEndOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/button33"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/round_button4"
+            android:text="목소리로 추가"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button33"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button27"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/round_button3"
+        android:font="@font/nanumbarungothic"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="삭제"
+        android:textAlignment="center"
+        android:textColor="#2B3240"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <Button
+        android:id="@+id/button34"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="52dp"
+        android:background="@drawable/round_button3"
+        android:font="@font/nanumbarungothic"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="완료"
+        android:textAlignment="center"
+        android:textColor="#2B3240"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="655dp" />
+</android.support.constraint.ConstraintLayout>

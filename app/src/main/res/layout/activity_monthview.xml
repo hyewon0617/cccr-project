@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2BF80">
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="411dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/round_button"
+        android:font="@font/nanumbarungothic"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="자녀 1"
+        android:textAlignment="center"
+        android:textColor="#2B3240"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <Button
+        android:id="@+id/button16"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="413dp"
+        android:layout_height="343dp"
+        android:background="@drawable/round_button3"
+        android:font="@font/nanumbarungothic"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="달력 api"
+        android:textAlignment="center"
+        android:textColor="#2B3240"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:font="@font/nanumbarungothic"
+        android:fontFamily="@font/nanumbarungothic"
+        android:text="1월"
+        android:textColor="#2B3240"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.111"
+        tools:layout_editor_absoluteX="185dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="51dp"
+        android:tint="#F2994B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:srcCompat="@drawable/right"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
+        android:tint="#F2994B"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/left"
+        tools:layout_editor_absoluteY="217dp" />
+
+</android.support.constraint.ConstraintLayout>
